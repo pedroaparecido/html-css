@@ -1,0 +1,100 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
+
+:root{
+    --cor0: #ff0059;
+    --cor1: #ff0037;
+    --cor2: #ff0099;
+    --cor3: #ff00b7;
+    --cor4: #ff0077;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(../imagens/body-logo.png);
+    background-color: pink;
+    margin:0%;
+}
+header{
+    background-color: white;
+    background-image: url(../imagens/pink-panther-EWEARB.jpg);
+    background-repeat: no-repeat;
+    min-height: 150px;
+    color: #D9117F;
+    padding-bottom: 0%;
+    text-align: center;
+}
+header article{
+    background-color: rgb(41, 33, 33);
+    padding-top: 0%;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.411);
+}
+header nav{
+    background-color: rgb(41, 33, 33);
+    padding-top:0%;
+    margin:0%;
+    text-align: right;
+}
+header h1{
+    margin-bottom: 20px;
+}
+header p{
+    background-image: url(../imagens/images.png);
+    background-repeat: no-repeat;
+    font-style: italic;
+    font-size: 1.2em;
+    max-width: 400px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 120px;
+    margin: auto;
+}
+section#inferior nav {
+    background-color: #D9117F;
+    text-align: left;
+    padding: 10px;
+    
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+nav a:hover{
+    background-color: white;
+    color: red;
+}
+main{
+    background-color: white;
+    color: #ff0077;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.411);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+main img{
+    width: 100%;
+}
+article{
+    background-color: white;
+    padding: 5px;
+}
+footer{
+    background-color: var(--cor4);
+    color: white;
+    text-align: center;
+    padding: 1px;
+    margin: 0px;
+}
+footer > p{
+    margin: 0px;
+}
